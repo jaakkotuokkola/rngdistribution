@@ -34,7 +34,10 @@ function generateHistogram() {
       ctx.beginPath();
       ctx.rect(j * scaleX, canvas.height - data[j] * scaleY, scaleX, data[j] * scaleY);
       ctx.fillStyle = "black";
+      ctx.strokeStyle = "white";
+      ctx.lineWidth = 1;
       ctx.fill();
+      ctx.stroke();
     }
 
     // line that follows the distribution averages
@@ -46,8 +49,8 @@ function generateHistogram() {
       ctx.lineTo(j * scaleX, canvas.height - (avg / maxY) * canvas.height);
     }
 
-    ctx.strokeStyle = "red";
-    ctx.lineWidth = 2;
+    ctx.strokeStyle = "orangered";
+    ctx.lineWidth = 4;
     ctx.stroke();
     i++;
   }, interval);

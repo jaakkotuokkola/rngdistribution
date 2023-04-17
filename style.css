@@ -10,7 +10,7 @@ body {
   }
   
   h1 {
-    color: gold;
+    color: orangered;
   }
   
   input {
@@ -30,7 +30,7 @@ body {
   }
   
   canvas {
-    width: 500px;
+    width: 600px;
     height: 500px;
     border: 1px solid black;
     background-color: rgb(192, 181, 181);
