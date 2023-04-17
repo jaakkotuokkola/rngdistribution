@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(75, 72, 72);
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    color: gold;
+  }
+  
+  input {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-bottom: 10px;
+    background-color: rgb(72, 228, 72);
+  }
+  
+  canvas {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(192, 181, 181);
+  }
+  
