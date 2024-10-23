@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RNG histogram display</title>
+    <title>RNG distribution </title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="container">
-      <h1>RNG distribution 1-100</h1>
+      <h1>Random Number Distribution (1-100)</h1>
       <div>
-        <label for="num-random-numbers">Amount of random generations:</label>
+        <label for="num-random-numbers">Total numbers to generate</label>
         <input type="number" id="num-random-numbers" value="20000">
         <br>
-        <label for="interval">Interval per number(milliseconds):</label>
+        <label for="interval">Time between each number generated(milliseconds):</label>
         <input type="number" id="interval" value="6">
       </div>
       <div>
-        <button onclick="generateHistogram()">Display distribution</button>
+        <button onclick="generateHistogram()">Run</button>
       </div>
       <div>
         <canvas id="histogram"></canvas>

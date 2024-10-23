@@ -40,7 +40,7 @@ function generateHistogram() {
       ctx.stroke();
     }
 
-    // line that follows the distribution averages
+    // cumulative average line
     ctx.beginPath();
     ctx.moveTo(0, canvas.height - (data[0] / maxY) * canvas.height);
 
