@@ -1,1 +1,1 @@
-Visualises distribution of random numbers generated
+Visualises distribution of random number generator
